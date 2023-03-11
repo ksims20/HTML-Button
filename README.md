@@ -1,2 +1,2 @@
 # HTML-Button
-This was my fourth project in my HTML design course. We made our own physical "button"
+This was my fourth project in my HTML design course. We made our own physical "button" (I have a picture of it), and when you pressed the physical "button" it was act as a signal to the computer that the user pressed the spacebar key and it would activate something on the webpage. My button website was a small recreation of windows using photoshop/illustrator to create the looks. This was my first project to incorporate sound as well.
