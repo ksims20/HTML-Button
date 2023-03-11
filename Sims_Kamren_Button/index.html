@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+    
+<head>
+    
+    <title> Windows 97  </title>
+    <meta charset="UTF-8">
+    
+    <style>
+    
+        body{
+            background-color: darkblue;
+        }
+        
+        #image-div{
+            width: 1000px;
+            height: 600px;
+            margin: 0 auto;
+            border: 5px solid black;
+            box-shadow: 15px 15px black; /* comic book style */
+            background-color: #ccc;
+            background-image: url(img/PowerOff.jpg);
+         
+            
+            
+    
+    </style>
+    
+    
+    
+    </head>
+
+ <body onkeypress="a(); funsoundplayer()">
+    
+    <div id="image-div">  </div>
+    
+    <script> 
+    
+    
+    function a(){
+        document.getElementById('image-div').style.backgroundImage ="url(img/Windows.jpg)";
+        console.log('a running');
+       
+    }
+    
+    let anysound = new Audio('sounds/windowsStart.wav');
+        
+        
+        function funsoundplayer(){
+            anysound.play();
+            console.log('sound running');
+        }
+        
+    </script>
+    
+    
+    </body>
+
+</html>
